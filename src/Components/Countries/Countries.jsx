@@ -4,7 +4,7 @@ import './Countries.css';
 
 const Countries = ({countriesPromise}) => {
     const countries= use(countriesPromise);
-    console.log(countries);
+    // console.log(countries);
     return (
         <div >
             <h1>Traveling countries : {countries.length}</h1>
